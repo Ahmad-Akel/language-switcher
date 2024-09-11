@@ -1,0 +1,55 @@
+# Node.js dependencies
+/node_modules/
+
+# TypeScript compiled output
+/dist/
+/build/
+/out/
+
+# TypeScript cache files
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode files
+.vscode/
+*.code-workspace
+
+# Ignore all local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore lock files if necessary (optional)
+/package-lock.json
+/yarn.lock
+
+# Webpack specific
+/webpack.config.js.map
+/.webpack/
+/.bundle/
+
+# Ignore misc
+.DS_Store
+Thumbs.db
+
+# Optional coverage folder for testing reports
+/coverage/
+
+# Ignore logs from npm
+npm-debug.log*
+
+# Ignore TypeScript specific
+tsconfig.tsbuildinfo
+
+# IDE specific files
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
